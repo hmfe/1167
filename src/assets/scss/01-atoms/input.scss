@@ -1,0 +1,18 @@
+.a-input {
+
+  &--search-form {
+    font-size: 16px;
+    padding: 24px 16px;
+    width: 100%;
+    border: 2px solid $border-input;
+
+    &::-webkit-search-decoration,
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-results-button,
+    &::-webkit-search-results-decoration {
+      -webkit-appearance: none;
+    }
+  }
+
+
+}

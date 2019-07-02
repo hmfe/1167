@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>HM Task - Hrvoje Matijevic</title>
+  </head>
+  <body>
+    <section class="m-search">
+      <form action="#" class="m-search__form" role="search" autocomplete="off" aria-label="Search form">
+        <input type="search" class="a-input--search-form js-form-input" aria-label="Search input field" placeholder="Search tools...">
+        <button type="button" class="a-btn a-btn--delete js-form-input-clear" role="button" aria-label="Clear input field">&#x2715;</button>
+      </form>
+
+      <ul class="m-search__results js-form-results" aria-label="Form search results"></ul>
+
+      <section class="m-search__history js-form-history">
+        <div class="container">
+          <div class="row">
+            <h1 class="m-search__heading">Search history</h1>
+            <button class="a-btn a-btn--clear js-clear-history" role="button" type="button" aria-label="Clear search history">Clear search history</button>
+          </div>
+          <ul class="m-search__history-list js-history-list" aria-label="Search history list"></ul>
+        </div>
+      </section>
+    </section>
+
+    <button class="a-btn a-btn--recreate" type="button" role="button" aria-label="Delete button">Delete</button>
+
+  </body>
+</html>
