@@ -1,0 +1,55 @@
+.a-btn {
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  // Modifiers
+  &--recreate {
+    background-image: linear-gradient(90deg, #f4b05d, #f19539);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 6px 12px;
+    border: 2px solid #88817a;
+    margin-top: 100px;
+
+    // Pseudo classes
+    &::after {
+      content: '\2715';
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 900;
+      width: 52px;
+      height: 52px;
+      line-height: 1;
+      background-color: #fff;
+      border-radius: 50%;
+      margin-left: 8px;
+    }
+  }
+
+  &--delete {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: $color-button;
+  }
+
+  &--clear {
+    background: none;
+    font-size: 13px;
+    border: none;
+    text-decoration: underline;
+  }
+}
